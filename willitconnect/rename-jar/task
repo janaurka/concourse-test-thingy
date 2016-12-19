@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Run: mv willitconnect-github-release/willitconnect*.jar willitconnect.jar"
+mv willitconnect-github-release/willitconnect*.jar rename-jar/willitconnect.jar
+

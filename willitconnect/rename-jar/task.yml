@@ -1,0 +1,16 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: ubuntu}
+
+inputs:
+- name: willitconnect-github-release 
+- name: concourse-dev-resources
+
+outputs:
+- name: rename-jar
+
+run:
+  path: concourse-dev-resources/willitconnect/rename-jar/task
