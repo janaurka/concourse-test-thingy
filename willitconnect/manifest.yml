@@ -1,0 +1,6 @@
+---
+
+- name: willitconnect-concourse
+  instances: 1
+  disk: 1G
+  memory: 1G
